@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  color: #40514E;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  /* 1em==16px==100%, [90px/16px*100= 562.5%] em,% is inherited from parent if we add em in parent it will be apply in child also.
+  In css3 use rem instead of em */
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  /* margin-bottom: 0; */
+  height: 100px;
+  line-height: 2;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  font-size: 2.5rem;
+  font-weight: normal;
+
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: #11999E;
+}
+
+hr {
+  border: dotted #EAF6F6 6px;
+  border-top: none;
+  width: 2.5%;
+  margin: auto;
+
+}
+
+.top-container {
+  padding-top: 100px;
+  background-color: #E4F9F5;
+  position: relative;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+  line-height: 3;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+  line-height: 2;
+  margin-bottom: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 300px;
+  left: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px
+}
+.skills{
+  margin-top:100px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill1-image {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill2-image {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-me {
+  margin: 100px auto 100px auto;
+  line-height: 2;
+  width: 40%;
+}
+
+.btn {
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  border-radius: 8cm;
+  background-image: linear-gradient(#11cdd4, #11999e);
+}
+
+.btn:hover {
+  background-image: linear-gradient(#30e3cb, #2bc4ad);
+}
+
+.footer-link {
+  text-decoration: none;
+  padding: 50px;
+  color: #11999E;
+}
+.footer-link:hover{
+  color:#EAF6F6
+}
+
+.credits {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0 10px;
+}
